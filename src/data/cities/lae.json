@@ -1,0 +1,189 @@
+{
+  "city": "Lae",
+  "cityId": "lae",
+  "province": "Morobe Province",
+  "country": "Papua New Guinea",
+  "currency": "PGK",
+  "isDummyData": true,
+  "disclaimer": "SAMPLE DATA ONLY. Every route, stop, fare and coordinate below is made up for demonstration purposes. Nothing in this file has been verified against real PMV operators in Lae. Do not rely on this data for real travel.",
+  "mapInitialRegion": {
+    "latitude": -6.7275,
+    "longitude": 146.985,
+    "latitudeDelta": 0.09,
+    "longitudeDelta": 0.09
+  },
+  "routes": [
+    {
+      "id": "lae-r1",
+      "name": "Route 1 - Eriku Town Loop",
+      "start": "Eriku",
+      "end": "Lae Market",
+      "fare": 1.0,
+      "fareDisplay": "K1.00",
+      "lastUpdated": "2026-01-15",
+      "isDummy": true,
+      "stops": [
+        { "id": "lae-r1-s1", "name": "Eriku", "latitude": -6.7275, "longitude": 146.9875 },
+        { "id": "lae-r1-s2", "name": "Top Town", "latitude": -6.7195, "longitude": 146.995 },
+        { "id": "lae-r1-s3", "name": "Chinatown", "latitude": -6.73, "longitude": 146.999 },
+        { "id": "lae-r1-s4", "name": "Lae Market", "latitude": -6.732, "longitude": 147.001 }
+      ],
+      "polyline": [
+        { "latitude": -6.7275, "longitude": 146.9875 },
+        { "latitude": -6.7195, "longitude": 146.995 },
+        { "latitude": -6.73, "longitude": 146.999 },
+        { "latitude": -6.732, "longitude": 147.001 }
+      ]
+    },
+    {
+      "id": "lae-r2",
+      "name": "Route 2 - Top Town Express",
+      "start": "Top Town",
+      "end": "Four Mile",
+      "fare": 1.5,
+      "fareDisplay": "K1.50",
+      "lastUpdated": "2026-01-15",
+      "isDummy": true,
+      "stops": [
+        { "id": "lae-r2-s1", "name": "Top Town", "latitude": -6.7195, "longitude": 146.995 },
+        { "id": "lae-r2-s2", "name": "Boundary Road", "latitude": -6.738, "longitude": 146.98 },
+        { "id": "lae-r2-s3", "name": "Four Mile", "latitude": -6.708, "longitude": 146.975 }
+      ],
+      "polyline": [
+        { "latitude": -6.7195, "longitude": 146.995 },
+        { "latitude": -6.738, "longitude": 146.98 },
+        { "latitude": -6.708, "longitude": 146.975 }
+      ]
+    },
+    {
+      "id": "lae-r3",
+      "name": "Route 3 - Butibam Connector",
+      "start": "Butibam",
+      "end": "Chinatown",
+      "fare": 2.0,
+      "fareDisplay": "K2.00",
+      "lastUpdated": "2026-01-15",
+      "isDummy": true,
+      "stops": [
+        { "id": "lae-r3-s1", "name": "Butibam", "latitude": -6.712, "longitude": 147.01 },
+        { "id": "lae-r3-s2", "name": "Milfordhaven Road", "latitude": -6.725, "longitude": 147.005 },
+        { "id": "lae-r3-s3", "name": "Eriku", "latitude": -6.7275, "longitude": 146.9875 },
+        { "id": "lae-r3-s4", "name": "Chinatown", "latitude": -6.73, "longitude": 146.999 }
+      ],
+      "polyline": [
+        { "latitude": -6.712, "longitude": 147.01 },
+        { "latitude": -6.725, "longitude": 147.005 },
+        { "latitude": -6.7275, "longitude": 146.9875 },
+        { "latitude": -6.73, "longitude": 146.999 }
+      ]
+    },
+    {
+      "id": "lae-r4",
+      "name": "Route 4 - Malahang Industrial",
+      "start": "Malahang",
+      "end": "Lae Harbour",
+      "fare": 2.5,
+      "fareDisplay": "K2.50",
+      "lastUpdated": "2026-01-15",
+      "isDummy": true,
+      "stops": [
+        { "id": "lae-r4-s1", "name": "Malahang", "latitude": -6.745, "longitude": 146.97 },
+        { "id": "lae-r4-s2", "name": "Boundary Road", "latitude": -6.738, "longitude": 146.98 },
+        { "id": "lae-r4-s3", "name": "Top Town", "latitude": -6.7195, "longitude": 146.995 },
+        { "id": "lae-r4-s4", "name": "Lae Harbour", "latitude": -6.734, "longitude": 147.006 }
+      ],
+      "polyline": [
+        { "latitude": -6.745, "longitude": 146.97 },
+        { "latitude": -6.738, "longitude": 146.98 },
+        { "latitude": -6.7195, "longitude": 146.995 },
+        { "latitude": -6.734, "longitude": 147.006 }
+      ]
+    },
+    {
+      "id": "lae-r5",
+      "name": "Route 5 - Nine Mile Highway",
+      "start": "Nine Mile",
+      "end": "Lae Market",
+      "fare": 3.0,
+      "fareDisplay": "K3.00",
+      "lastUpdated": "2026-01-15",
+      "isDummy": true,
+      "stops": [
+        { "id": "lae-r5-s1", "name": "Nine Mile", "latitude": -6.698, "longitude": 146.96 },
+        { "id": "lae-r5-s2", "name": "Wagang", "latitude": -6.69, "longitude": 146.985 },
+        { "id": "lae-r5-s3", "name": "Top Town", "latitude": -6.7195, "longitude": 146.995 },
+        { "id": "lae-r5-s4", "name": "Lae Market", "latitude": -6.732, "longitude": 147.001 }
+      ],
+      "polyline": [
+        { "latitude": -6.698, "longitude": 146.96 },
+        { "latitude": -6.69, "longitude": 146.985 },
+        { "latitude": -6.7195, "longitude": 146.995 },
+        { "latitude": -6.732, "longitude": 147.001 }
+      ]
+    },
+    {
+      "id": "lae-r6",
+      "name": "Route 6 - Unitech Student Special",
+      "start": "Wagang",
+      "end": "Unigate",
+      "fare": 1.0,
+      "fareDisplay": "K1.00",
+      "lastUpdated": "2026-01-15",
+      "isDummy": true,
+      "stops": [
+        { "id": "lae-r6-s1", "name": "Wagang", "latitude": -6.69, "longitude": 146.985 },
+        { "id": "lae-r6-s2", "name": "Taraka", "latitude": -6.743, "longitude": 146.995 },
+        { "id": "lae-r6-s3", "name": "Unigate", "latitude": -6.7, "longitude": 146.985 }
+      ],
+      "polyline": [
+        { "latitude": -6.69, "longitude": 146.985 },
+        { "latitude": -6.743, "longitude": 146.995 },
+        { "latitude": -6.7, "longitude": 146.985 }
+      ]
+    },
+    {
+      "id": "lae-r7",
+      "name": "Route 7 - Boundary Road Shuttle",
+      "start": "Boundary Road",
+      "end": "Lae Market",
+      "fare": 1.5,
+      "fareDisplay": "K1.50",
+      "lastUpdated": "2026-01-15",
+      "isDummy": true,
+      "stops": [
+        { "id": "lae-r7-s1", "name": "Boundary Road", "latitude": -6.738, "longitude": 146.98 },
+        { "id": "lae-r7-s2", "name": "Eriku", "latitude": -6.7275, "longitude": 146.9875 },
+        { "id": "lae-r7-s3", "name": "Chinatown", "latitude": -6.73, "longitude": 146.999 },
+        { "id": "lae-r7-s4", "name": "Lae Market", "latitude": -6.732, "longitude": 147.001 }
+      ],
+      "polyline": [
+        { "latitude": -6.738, "longitude": 146.98 },
+        { "latitude": -6.7275, "longitude": 146.9875 },
+        { "latitude": -6.73, "longitude": 146.999 },
+        { "latitude": -6.732, "longitude": 147.001 }
+      ]
+    },
+    {
+      "id": "lae-r8",
+      "name": "Route 8 - Taraka Link",
+      "start": "Taraka",
+      "end": "Top Town",
+      "fare": 2.0,
+      "fareDisplay": "K2.00",
+      "lastUpdated": "2026-01-15",
+      "isDummy": true,
+      "stops": [
+        { "id": "lae-r8-s1", "name": "Taraka", "latitude": -6.743, "longitude": 146.995 },
+        { "id": "lae-r8-s2", "name": "Malahang", "latitude": -6.745, "longitude": 146.97 },
+        { "id": "lae-r8-s3", "name": "Four Mile", "latitude": -6.708, "longitude": 146.975 },
+        { "id": "lae-r8-s4", "name": "Top Town", "latitude": -6.7195, "longitude": 146.995 }
+      ],
+      "polyline": [
+        { "latitude": -6.743, "longitude": 146.995 },
+        { "latitude": -6.745, "longitude": 146.97 },
+        { "latitude": -6.708, "longitude": 146.975 },
+        { "latitude": -6.7195, "longitude": 146.995 }
+      ]
+    }
+  ]
+}
